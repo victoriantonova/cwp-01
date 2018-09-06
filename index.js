@@ -1,3 +1,9 @@
-const name = process.argv[2];
+var result = 0;
 
-console.log(`Hi! ${name}!`);
+for (var i = 2; i < process.argv.length; i++)
+    //result=Number(i)-1;
+    console.log(process.argv[i])
+//console.log(result);
+
+//console.log(Object.keys(process.argv).length);
+
